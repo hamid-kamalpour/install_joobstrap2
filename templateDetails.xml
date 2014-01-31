@@ -4,11 +4,11 @@
 
   <name>Joobstrap</name> 
   <version>2.0</version> 
-  <creationDate>30/August/2013</creationDate> 
+  <creationDate>31/January/2014</creationDate> 
   <author>Holger Koenemann</author> 
-  <authorEmail>webmaster@pixelsparadise.com</authorEmail> 
-  <authorUrl>http://www.pixelsparadise.com</authorUrl> 
-  <copyright>Copyright 2009-2013 - pixelsparadise.com</copyright> 
+  <authorEmail>office@holgerkoenemann.de</authorEmail> 
+  <authorUrl>http://www.joobstrap.com</authorUrl> 
+  <copyright>Copyright 2009-2013 - joobstrap.com</copyright> 
   <license>Commercial</license> 
 <description>
  <![CDATA[ <h1>Template Overview - "JoobStrap"</h1>
@@ -17,9 +17,9 @@
 <div style="color:#303030; border:1px solid #ddd; border-top:1px solid #ccc; border-left:1px solid #ccc;background-color:#f5f5f5; padding:10px; margin:10px; width:auto; float:left; text-shadow:0 1px 1px #fff; box-shadow:inset 0px 0px 10px rgba(0,0,0,.15); border-radius:5px;">
 <h3>Changelog</h3>
 
-<b>Current Version 1.0.5</b><br/>
+<b>Current Version 2.0</b><br/>
 <ul>
-	<li> 8/Jan/2012 - Version 1.0 - Main Release</li>
+	<li> 31/Jan/2014 - Version 2.0 - Re- Release now for Joomla 3 with bootstrap 3</li>
 
 
 </ul>
@@ -27,11 +27,6 @@
 Important links<br/>
 <ul>
 <li>> <a href="http://www.pixelsparadise.com/docs/joobstrap" target="_blank">Online Documentation</a></li>
-<li>> <a href="http://www.pixelsparadise.com/index.php/joomla-templates/132-joobstrap-joomla-template" target="_blank">Product Page</a></li>
-<li>> <a href="http://www.pixelsparadise.com/index.php/support" target="_blank">Support Area</a></li>
-<li>> <a href="http://www.pixelsparadise.com/index.php/support/forum" target="_blank">Support Forum</a></li>
-<li>> <a href="http://www.pixelsparadise.com/index.php/support/contact" target="_blank">Contact</a></li>
-<li>> <a href="http://www.joobstrap.pixelsparadise.net" target="_blank">Live Demo</a></li>
 </ul>
 
 </div>
@@ -56,7 +51,7 @@ Important links<br/>
 </files>
 
 <languages folder="language">
-		<language tag="en-GB">en-GB/en-GB.tpl_craftandcook.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_joobstrap.ini</language>
 	</languages>
 		
 <positions>
