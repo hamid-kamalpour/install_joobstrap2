@@ -1,4 +1,4 @@
 Joobstrap 2.0
 ==================
 
-Joomla 3 + Bootstrap 3 Template Framework
+Joobstrap is a template framework for Joomla! 3+ based on Bootstrap 3+
