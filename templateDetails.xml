@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" method="upgrade" client="site">
+
+  <name>Joobstrap</name> 
+  <version>2.0</version> 
+  <creationDate>30/August/2013</creationDate> 
+  <author>Holger Koenemann</author> 
+  <authorEmail>webmaster@pixelsparadise.com</authorEmail> 
+  <authorUrl>http://www.pixelsparadise.com</authorUrl> 
+  <copyright>Copyright 2009-2013 - pixelsparadise.com</copyright> 
+  <license>Commercial</license> 
+<description>
+ <![CDATA[ <h1>Template Overview - "JoobStrap"</h1>
+ <div style="margin:10px; float:left; width:auto;"><img src="../templates/joobstrap/template_preview.png" /></div>
+
+<div style="color:#303030; border:1px solid #ddd; border-top:1px solid #ccc; border-left:1px solid #ccc;background-color:#f5f5f5; padding:10px; margin:10px; width:auto; float:left; text-shadow:0 1px 1px #fff; box-shadow:inset 0px 0px 10px rgba(0,0,0,.15); border-radius:5px;">
+<h3>Changelog</h3>
+
+<b>Current Version 1.0.5</b><br/>
+<ul>
+	<li> 8/Jan/2012 - Version 1.0 - Main Release</li>
+
+
+</ul>
+<br />
+Important links<br/>
+<ul>
+<li>> <a href="http://www.pixelsparadise.com/docs/joobstrap" target="_blank">Online Documentation</a></li>
+<li>> <a href="http://www.pixelsparadise.com/index.php/joomla-templates/132-joobstrap-joomla-template" target="_blank">Product Page</a></li>
+<li>> <a href="http://www.pixelsparadise.com/index.php/support" target="_blank">Support Area</a></li>
+<li>> <a href="http://www.pixelsparadise.com/index.php/support/forum" target="_blank">Support Forum</a></li>
+<li>> <a href="http://www.pixelsparadise.com/index.php/support/contact" target="_blank">Contact</a></li>
+<li>> <a href="http://www.joobstrap.pixelsparadise.net" target="_blank">Live Demo</a></li>
+</ul>
+
+</div>
+]]> 
+</description>
+
+<files>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>html</folder>
+		<folder>includes</folder>
+		<folder>language</folder>
+		<folder>font</folder>
+		<folder>subthemes</folder>
+		<filename>templateDetails.xml</filename>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>template_thumbnail.png</filename>	
+		<filename>template_preview.png</filename>	
+		<filename>favicon.ico</filename>		
+</files>
+
+<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_craftandcook.ini</language>
+	</languages>
+		
+<positions>
+	
+	<position>navbar_top</position>
+	<position>logo</position>
+	<position>navbar_bottom</position>
+	<position>main_nav</position>
+	
+	<position>header_top</position>
+	<position>header_slider</position>
+	<position>header_center</position>
+	<position>header_bottom</position>
+	
+	<position>top_top</position>
+	<position>top_center</position>
+	<position>top_bottom</position>
+	
+	<position>main_top</position>
+	<position>main_left</position>
+	<position>main_center_top</position>
+	<position>main_center_bottom</position>	
+	<position>main_right</position>
+	<position>main_bottom</position>
+	
+	<position>bottom_top</position>
+	<position>bottom_center</position>
+	<position>bottom_bottom</position>
+	
+	<position>footer_top</position>
+	<position>footer_center</position>
+	<position>footer_bottom</position>
+
+
+</positions>
+
+<config>
+	<fields name="params">
+		<fieldset name="Basic" label="General Settings">
+			<field name="contrastColor" 
+					type="text" 
+					default="34a0c5" 
+					size="6" 
+					label="Enter contrast color code #" 
+					description="Enter the hex color code for contrast color (sidebar, links etc.)"
+					>			
+			</field>
+			
+			<field name="readDirection" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="LTR or RTL text flow?" 
+					description="Display text from left ot right (LTR) or right to left (RTL) ?"
+					>
+					
+					<option value="0">RTL</option>	
+					<option value="1">LTR</option>		
+			</field>
+
+			
+			<field name="fontAwesome" 
+					type="list" 
+					default="1" 
+					label="Enable Font Awesome Icons" 
+					description="Enable or disable Font Awesome icons. Disable it if you don´t need the icons to save bandwidth."
+					>
+					<option value="0">Disabled</option>
+					<option value="1">Enabled</option>
+			</field>
+			
+					
+			<field name="stickyNav" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Sticky Navbar" 
+					description="Should the navbar be fixed to the top"
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>			
+			</field>
+
+			<field name="animatedElements" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Load the animate.css file" 
+					description="Loads the animate.css file which provides nice CSS3 animations which can be easily attache dto a HTML element. Read more here: http://daneden.me/animate/."
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>			
+			</field>
+			
+			<field name="showComponent" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Show Main content area" 
+					description="Display main content area"
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="2">Only on subpages</option>			
+			</field>
+		</fieldset>
+		
+		<fieldset name="Layout" label="Layout">
+				<field name="basicLayout" 
+					type="list" 
+					default="2" 
+					label="Select the basic layout" 
+					description="Full Size = Template wrapper use full screen size, Boxed= Template wrapper surrounds the template body only"
+					>
+					<option value="1">Full Size</option>
+					<option value="2">Boxed</option>
+		
+			
+			</field>
+			
+			<field name="wrapperAlignment" 
+					type="list" 
+					default="1" 
+					label="Select the wrapper alignment" 
+					description="Should be the template body centered, left-, or right aligned?"
+					>
+					<option value="1">Centered</option>
+					<option value="2">Left</option>
+					<option value="3">Right</option>
+			
+			</field>
+			
+			<field name="responsiveBehavior" 
+					type="list" 
+					default="2" 
+					label="Select the layout behavior" 
+					description="FIXED = Template use one fixed size (max width entered below), RESPONSIVE = Template scale up and down between the min and max size setup below"
+					>
+					<option value="1">Fixed</option>
+					<option value="2">Responsive</option>
+		
+			
+			</field>
+			
+			<field name="maxWidth" 
+					type="text" 
+					default="1140" 
+					size="4" 
+					label="Select max width in px" 
+					description="If the basic layout is set to fixed width or responsive you can define a max width in pixels here"
+					>			
+			</field>
+			
+			<field name="minWidth" 
+					type="text" 
+					default="768" 
+					size="4" 
+					label="Select min width in px" 
+					description="If the basic layout is set to responsive you can define a min width in pixels here"
+					>			
+			</field>
+			
+			<field name="sidebarWidth" 
+					type="text" 
+					default="360" 
+					size="4" 
+					label="Select sidebar width in px" 
+					description="If the basic layout is set to 'fixed with fixed sidebar' you can define width in pixels here for the sidebar"
+					>			
+			</field>
+		</fieldset>
+		
+		<fieldset name="logo" label="Logo">	
+			<field name="logoType" 
+					type="list" 
+					default="2" 
+					label="Select logo type" 
+					description="Should the template use a image, a text, the moduleposition 'logo' or a combination of an image and text as logo? "
+					>
+					<option value="1">Image</option>
+					<option value="2">Text</option>	
+					<option value="3">Moduleposition </option>
+					<option value="4">Image and Text</option>		
+			</field>
+			
+			<field name="logoText" 
+					type="text" 
+					default="Joobstrap" 
+					size="12" 
+					label="Enter logo text" 
+					description="Enter the logo text if logo type is set to 'text' or 'image and text'"
+					>			
+			</field>
+			
+			<field name="logoFile" 
+					type="Media" 
+					label="Upload logo image" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own one. If nothing is selected but the logo type is set to 'text' or 'image and text' the template use the 'sample_logo.png' file from its own '/img' folder"
+					>			
+			</field>
+		</fieldset>
+		<fieldset name="backgroundimage" label="Background Image">	
+					<field name="backgroundImagetype" 
+					type="list"
+					default="0"
+					label="Type of background image" 
+					description="Select if the template should use a full size background image or a texture"
+					>
+					<option value="0">None</option>
+					<option value="1">Texture</option>
+					<option value="2">Full size image</option>
+			</field>
+			
+			<field name="backgroundImage" 
+					type="Media" 
+					label="Upload background image1" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. It will be used as texture or full size image if a type is selected above. If nothing is selected but the background image option above is active the template use the 'sample_background.jpg' file from its own '/img' folder"
+					>			
+			</field>
+			
+			<field name="note" type="note" label="If you select other images below too you will activate the full size background image slider automatically. Only than the Duration and Fading option takes effect." />
+			
+			<field name="backgroundImageduration" 
+					type="text" 
+					default="7000" 
+					size="5" 
+					label="Duration per image" 
+					description="The time a background image appears before it fades out. Default is 8000" 
+					>			
+			</field>
+			
+			<field name="backgroundImagefade" 
+					type="text" 
+					default="1000" 
+					size="5" 
+					label="Fading time" 
+					description="Time from one background image to another in ms. Default is 1000" 
+					>			
+			</field>
+			
+			<field name="backgroundImage2" 
+					type="Media" 
+					label="Upload background image 2" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own."
+					>			
+			</field>
+			
+			<field name="backgroundImage3" 
+					type="Media" 
+					label="Upload background image 3" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage4" 
+					type="Media" 
+					label="Upload background image 4" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage5" 
+					type="Media" 
+					label="Upload background image 5" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage6" 
+					type="Media" 
+					label="Upload background image6" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage7" 
+					type="Media" 
+					label="Upload background image7" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage8" 
+					type="Media" 
+					label="Upload background image8" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage9" 
+					type="Media" 
+					label="Upload background image9" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage10" 
+					type="Media" 
+					label="Upload background image10" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own."
+					>			
+			</field>
+			
+			<field name="backgroundImage11" 
+					type="Media" 
+					label="Upload background image11" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own. "
+					>			
+			</field>
+			
+			<field name="backgroundImage12" 
+					type="Media" 
+					label="Upload background image12" 
+					default=""
+					description="Select a image from the Joomla internal media manager or upload your own."
+					>			
+			</field>
+			
+
+
+			</fieldset>
+			
+			
+
+			
+
+		
+		<fieldset name="slider" label="Slider">
+
+			
+					<field name="sliderEffect" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Type of slide effect" 
+					description="Choose the type of slide effect"
+					>
+					<option value="1">Fade</option>
+					<option value="2">Slide</option>			
+			</field>
+			
+			<field name="sliderChange" 
+					type="text" 
+					default="1000" 
+					size="5" 
+					label="Time from one slide to another" 
+					description="Enter the time between one slide to another in ms. Default is 1000" 
+					>			
+			</field>
+			
+			<field name="sliderAuto" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Autoplay" 
+					description="Enables the autoplay function for the slider"
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>			
+			</field>
+			
+			<field name="sliderPagination" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Show slider pagination" 
+					description="Show links with number to every slide"
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>			
+			</field>
+			
+			<field name="sliderArrows" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Show slider Arrows" 
+					description="Show Prev and Next link to slide through"
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>			
+			</field>
+			
+			<field name="hoverPause" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Stops on hover" 
+					description="The slideshow stops on mouseover. good for longer content or videos. "
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>			
+			</field>
+			
+			<field name="loopSlider" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Loop Slider content?" 
+					description="If enabled the slider will restart from the beginning. If disabled slider will stop at the end"
+					>
+					<option value="0">No</option>
+					<option value="1">Yes</option>			
+			</field>
+			
+			
+			<field name="sliderTime" 
+					type="text" 
+					default="8000" 
+					size="5" 
+					label="Time per slide" 
+					description="Time one slide appears in ms. Default is 8000" 
+					>			
+			</field>
+		</fieldset>
+		
+		<fieldset name="development" label="Development">
+			<field name="subTheme"
+					type="folderlist"
+					default="-1"
+					label="Select a Sub Theme CSS file"
+					description="This applies a extra style.css file from the selected subfolder of the sub themes directory. Can be used for development issues. You can add/remove certain styles and overwrite the default CSS with it without touching the original files." 
+					directory="templates/joobstrap/subthemes">
+			</field>
+			
+						
+						
+			<field name="loadMootools" 
+					type="radio" 
+					class="btn-group"
+					default="0" 
+					label="Activate Mootools?" 
+					description="Older extension can require Mootools JS framework. In this case turn on this option?"
+					>
+					
+					<option value="0">Off</option>	
+					<option value="1">On</option>		
+			</field>
+			
+			<field name="loadInview" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="Load the inview.js script?" 
+					description="Loads the inview.js script. This detects if an element is inside or outside the users viewport. Combin it animation or transitions for cool effects. Deactivate if you don´t need it to save bandwith and optimize the websites performance."
+					>
+					
+					<option value="0">Off</option>	
+					<option value="1">On</option>		
+			</field>
+
+		</fieldset>
+		</fields>
+	</config>
+
+</extension>

@@ -1,0 +1,131 @@
+/* Default HTML changes */
+body {-webkit-font-smoothing: antialiased;word-wrap: break-word ;}
+blockquote small {color:#fff;}
+
+/* Nice Fade Effect for Links */
+a,.separator  { -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out;-o-transition: .5s ease-in-out; transition: .5s ease-in-out;}
+
+/************* Bootstrap extensions and customizations *************/
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
+position:inherit;
+}
+
+/* The navbar */
+.navbar.navbar-default {background:none; border:none;}
+#navbar_center {z-index:1;}
+.navbar  {min-height: inherit;margin-bottom:0;border: none;}
+ul.navigation {margin:0px;padding:0px;}
+
+/* Navbar Toggle*/
+.navbar-default .navbar-toggle {border:3px solid #000;border-radius:0px;}
+.navbar-default .navbar-toggle .icon-bar {border:none; background-color:#000;height:3px;}
+.navbar-default .navbar-toggle:hover {background-color:#000;}
+.navbar-default .navbar-toggle:hover .icon-bar {background-color:#fff;}
+/*The logo reset */
+.navbar-brand {float: left;padding: 0px;font-size: inherit;line-height: 1em;}
+
+/* Dropdown function */
+/************* Joomla extensions and customizations *************/
+.main_nav ul.navigation li a {text-decoration:none;}
+.main_nav ul.navigation li.parent ul.nav-child {display:none;padding:0; margin:0;width:20rem;z-index:1000000000; position:absolute;}
+.main_nav ul.navigation li.parent:hover ul.nav-child {display:block;position:absolute;background:#fff;z-index:1000000000;}
+.main_nav ul.navigation li.parent:hover ul.nav-child li {padding:20px 0px; margin:0px;height:auto; line-height:1em;display:block;width:100%;}
+.main_nav ul.navigation li.parent:hover ul.nav-child .nav-child {display:none;}
+.main_nav ul.navigation li.parent ul.nav-child li.parent:hover .nav-child {display:block;margin-left:19.6rem;margin-top:-34px;position:absolute;}
+/* Hides Joomla Module title if turned off */
+.no-title .module-header {display:none;}
+
+/************* General extensions and customizations *************/
+.sourrounding_wrapper {width:100%;float:left;}
+.show_navbar_top {position:absolute;border-radius:0;top:0;right:50%;margin-right:-15px;z-index:100000;width:30px; height:30px;padding:0; line-height:30px;font-size:bold;}
+
+/************* Navbar and Dropdown *************/
+.main_nav .navigation {float:right;}
+.main_nav .navigation li{float:left;list-style:none;}
+
+/* Breadcrumb Module default styling*/
+.breadcrumb {background:none; padding:0; margin:0;}
+
+/* Hides Module title if turned off. Title is still in the source code. Good for search engines...*/
+.no-title .module-header {display:none;}
+
+/************* Helper classes *************/
+.text-align-right {text-align:right;}
+.text-align-center {text-align:center;}
+.text-align-left {text-align:left;}
+.float-left {float:left;}
+.float-right {float:right;}
+.border_right {border-right:1px solid #e4e4e4;padding-right:20px;}
+.border_left {border-left:1px solid #e4e4e4;padding-left:20px;}
+.rounded-background {border-radius:999px;}
+.small_text {font-size:.8em; line-height:1.4em;}
+.big_text {font-size:1.2em}
+.white_text, p.white_text, .white_text p {color:#fff; text-shadow: 1px 1px 1px rgba(0,0,0,.5);}
+.black_text, .black_text p, p.black_text {color:#000; text-shadow: 1px 1px 1px rgba(255,255,255,.5);}
+.dark_transparent_background {background:rgba(0,0,0,.75);}
+
+/* Joomla & Bootstrap UI customizations */
+.img-fulltext-left, .img-fulltext-right, .img-fulltext-left img, .img-fulltext-right img {width:100%;}
+.img-intro-left, .img-intro-right, .img-intro-left img, .img-intro-right img{width:100%;}
+.item-separator {height:1px;border-bottom:1px solid #eee;margin:0px 0;}
+.btn-group.actions .btn{background:none;background-color:#eee; border-radius:0px;}
+ul.pagenav li a{background:none;background-color:#eee; border-radius:0px;}
+.createdby, .article-info {margin-right:10px;margin-bottom:15px;}
+.hits {margin-left:10px;}
+.breadcrumb {border:1px solid #e3e3e3;padding:5px;border-radius:0px;margin-bottom:20px;border-left:none; border-right:none;}
+.item_content {margin:20px 0;float:left; width:100%;}
+.page-header {border-bottom:1px solid #e3e3e3;}
+.content-links {display:none;}
+.container.inner_custom {padding:0px;}
+.blog .item {margin-top:-30px;}
+#searchForm input {margin-right:10px;}
+#searchForm legend {margin-top:20px;}
+.login .form-actions {margin-bottom:20px;}
+
+/*Embed responsive Videos */
+.responsive-video iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+/* Embed a 16:9 Vimeo or YouTube video responsive */
+.responsive-video {position: relative;padding-bottom: 56.25%; /* Default for 1600x900 videos 16:9 ratio*/padding-top: 0px;height: 0;overflow: hidden;}
+
+.responsiveiframe {position: relative;padding-bottom: 56%;height: 0;overflow: hidden;}
+.responsiveiframe iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+/*Text selector styling */
+::-moz-selection{ background: #c9e7de; color:#000; text-shadow: none; }
+::selection { background:#c9e7de; color: #000; text-shadow: none; }
+
+/*General form styling */
+input, textarea {border:1px solid #ccc}
+
+/************** Custom content elements **************/
+
+/*Pricing Table Basic style */
+.pricing_table h1 {font-size:40px;}
+.pricing_table:hover {box-shadow:0px 0px 10px rgba(58,135,173,.7);}
+.pricing_table:hover h1 {text-shadow:0 0 10px rgba(255,255,255,1);}
+.pricing_table {border:1px solid #ddd;box-shadow:0px 0px 10px rgba(0,0,0,.2);border-radius:3px;margin:30px 0;}
+.pricing_table.featured_plan:before {content:"Best Price!"; color:#fff; font-size:11px;position:absolute; margin-top:-18px; margin-left:-18px;background-color:#0088cc;width:64px; height:64px;line-height:64px; text-align:center;border-radius:999px;box-shadow:0px 0px 4px rgba(0,0,0,.5);}
+.pricing_table ul {margin:0; padding:0;}
+.pricing_table ul li {list-style:none; text-align:center;margin:0; padding:20px;border-bottom:1px solid #ddd;}
+.pricing_table ul li:last-child {border-bottom:none;}
+.pricing_table ul li.plan_header {box-shadow:inset 0px -20px 20px rgba(0,0,0,1);background-color:#303030;border-top-left-radius:3px;border-top-right-radius:3px;margin-top:10px;}
+.pricing_table ul li.plan_header h1 {color:#fff; margin:10px; font-weight:600;}
+.pricing_table ul li.plan_header p {color:#aaa;font-size:13px;margin:10px;font-weight:300;text-shadow:1px 1px 1px #000;}
+.pricing_table ul li.plan_pricing h2 {line-height:64px;margin:0; padding:0;}
+.pricing_table ul li.plan_pricing span.small {font-size:14px;font-weight:lighter;padding:0 5px;}
+.pricing_table ul li.row-odd {background-color:#f2f2f2; box-shadow:inset 0px -10px 30px rgba(0,0,0,.05);text-shadow:1px 1px 1px #fff;border-top:1px solid #fff;}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+.main_nav {float:left;width:100%;}
+.main_nav ul.navigation {margin-bottom:1rem;float:none;float:left;display:block;border:1px solid #e3e3e3;border-top:0px;border-bottom:0px;width:100%; }
+.main_nav ul.navigation li {text-align:center;display:block;float:left;width:100%;border-bottom:1px solid #e3e3e3;}
+#credits #back-top {color:#fff !important;position:fixed;border-radius:6px;padding:5px; bottom:5px; opacity:1; color:#fff;right:5px;z-index:1000000; display:block; background-color:#000;text-shadow:none;}
+#back-top a:link {padding:100px; display:block;}
+.main_nav ul.navigation li.parent:hover ul.nav-child {display:none;position:relative;}
+.main_nav ul.navigation li.parent ul.nav-child {display:none;width:100%;position:relative;font-size:.875em;}
+.main_nav ul.navigation li.parent ul.nav-child li a{padding:8px 0;font-weight:bolder;}
+.main_nav ul.navigation li.parent.active ul.nav-child{display:block;border-top:1px solid #e3e3e3;}
+.main_nav ul.navigation li.parent.active ul.nav-child li a:before{content:"> "; color:#ccc;}
+}
