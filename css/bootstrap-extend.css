@@ -21,8 +21,7 @@ ul.navigation {margin:0px;padding:0px;}
 .navbar-default .navbar-toggle .icon-bar {border:none; background-color:#000;height:3px;}
 .navbar-default .navbar-toggle:hover {background-color:#000;}
 .navbar-default .navbar-toggle:hover .icon-bar {background-color:#fff;}
-/*The logo reset */
-.navbar-brand {float: left;padding: 0px;font-size: inherit;line-height: 1em;}
+
 
 /* Dropdown function */
 /************* Joomla extensions and customizations *************/

@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,600);
+/************** Basic HTML **************/
+body {padding:0px;background:#ececec;}
+
+/************** Main Layout & Design **************/
+.sourrounding_wrapper  {border-bottom:1px solid #e3e3e3;background-color:#fff;}
+.joobstrab_area {float:left; width:100%;}
+.boxed .sourrounding_wrapper {border:none;background:none;}
+.boxed #credits .inner_wrapper {border:none;}
+.inner_wrapper {padding:80px 5%;border-bottom:1px solid #d6d6d6; border-top:none;background:#fff;box-shadow:0px 180px 180px rgba(0,0,0,.3);}
+#navbar_center .inner_wrapper {padding:30px 5%;background:none;border:none;box-shadow:none;} 
+#header_slider .inner_wrapper,  #header_slider .container {padding:0px 0%;overflow:hidden;}
+.navbar_area {position:relative; z-index:2;}
+.boxed .sourrounding_wrapper#credits .inner_wrapper, .sourrounding_wrapper#credits{background:none;box-shadow:none;}
+.boxed .sourrounding_wrapper#credits .inner_wrapper{margin-bottom:40px;}
+ul.slides li .custom, ul.slides li .custom .inner_module {background-size:cover;}
+ul.slides li .custom .inner_module {background-image: url(../../img/shine.png);}
+#top_top .inner_wrapper {background-color:#404040;}
+
+/************** Typo **************/
+body { font:300 15px/1.666em 'Roboto', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;color: #505050;-webkit-text-size-adjust: none;}
+h1, h2, h3, h4, h5, h6 {color:#404040;font-weight:600;line-height:1.25em;margin:0px;}
+h1 {font-size:7em;}
+h2 {font-size:3em;}
+h3 {font-size:1.75em;}
+h4 {font-size:1.5em;}
+h5 {font-size:1.25em;}
+h6 {font-size:1em;}
+
+#credits {color:#666;font-size:12px;}
+#top_top, #top_top h1, #top_top h2, #top_top h3, #top_top h4, #top_top h5, #top_top h6, .header_area .inner_wrapper, .header_area .inner_wrapper h1, .header_area .inner_wrapper h2, .header_area .inner_wrapper h3, .header_area .inner_wrapper h4, .header_area .inner_wrapper h5, .header_area .inner_wrapper h6 {color:#fff;}
+.header_area .inner_wrapper {background:#404040;border-bottom:none;}
+
+/************** Navigation & Logo **************/
+/*The logo reset */
+.navbar-brand {float: left;padding: 0px;font-size: inherit;line-height: 1em;}
+
+/* The Logo */
+.navbar-brand h1{padding:0px 0;margin:0 0 0 10px;font-size:20px;line-height:1em;font-weight:600;}
+.navbar-brand h1:hover {background:black;color:#fff;}
+
+/* The Navbar */
+.boxed #navbar_center {}
+#navbar_center, .boxed #navbar_center .inner_wrapper {}
+#navbar_center{margin-bottom:-11px;}
+
+/* Navbar Link Element*/
+.main_nav .navigation li a{padding:20px;font-size:13px; font-weight:400;}
+.main_nav ul.navigation li.parent ul.nav-child {margin-left:0px;}
+.main_nav ul.navigation li.parent ul.nav-child li {height:auto;}
+.main_nav ul.navigation li.parent ul.nav-child li a{width:100%;display:block;padding:0 0 0 20px;}
+.main_nav .navigation li:hover {background:black;}
+/*General navbar height */
+.main_nav .navigation li, .navbar-brand h1 {height:60px; line-height:60px;}
+
+/*Basic Joomla and Boostrap customizations */
+.btn {border:none; border-radius:0px;}
+
+/* Mobile customizations */
+@media (max-width: 767px) {
+body {font-size:18px;text-align:center;}
+h1 {font-size:7.25rem;}
+h2 {font-size:6rem;}
+h3 {font-size:4.5rem;}
+h4 {font-size:3.25rem;}
+h5 {font-size:2.25rem;}
+h6 {font-size:1.5rem;}
+.credits_right p.text-align-right {text-align:center;}
+}
+

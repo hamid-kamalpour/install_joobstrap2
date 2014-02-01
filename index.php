@@ -47,17 +47,17 @@ if (document.documentElement.clientWidth >= 980) {
 <link href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/css/bootstrap-extend.css" rel="stylesheet" media="screen">
 <link href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/css/flexslider.css" rel="stylesheet" media="screen">
-<link href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/css/style.css" rel="stylesheet" media="screen">
+<?php if($this->params->get('subTheme') != -1) : ?>
+<!-- Subthemes - Loads the design and layout style.css from your sub theme directory-->
+<link rel="stylesheet" href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/subthemes/<?php echo $this->params->get('subTheme'); ?>/style.css">
+<?php endif; ?>	
 <?php if($this->params->get('fontAwesome') == 1) : ?>
 <link href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/css/font-awesome.min.css" rel="stylesheet" media="screen">
 <?php endif; ?>
 <?php if($this->params->get('animatedElements') == 1) : ?>
 <link href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/css/animate.min.css" rel="stylesheet" media="screen">
 <?php endif; ?>
-<?php if($this->params->get('subTheme') != -1) : ?>
-<!-- Subthemes -->
-<link rel="stylesheet" href="<?php echo $this->baseurl;?>/templates/<?php echo $this->template;?>/subthemes/<?php echo $this->params->get('subTheme'); ?>/style.css">
-<?php endif; ?>	
+
     
 <?php if($this->params->get('readDirection') == 0) : ?>
 <!-- Loads RTL stylsheet if enabled-->	
