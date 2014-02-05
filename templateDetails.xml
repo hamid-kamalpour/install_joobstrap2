@@ -9,7 +9,7 @@
   <authorEmail>office@holgerkoenemann.de</authorEmail> 
   <authorUrl>http://www.joobstrap.com</authorUrl> 
   <copyright>Copyright 2009-2013 - joobstrap.com</copyright> 
-  <license>Commercial</license> 
+  <license>GNU GPL v2</license> 
 <description>
  <![CDATA[ <h1>Template Overview - "JoobStrap"</h1>
  <div style="margin:10px; float:left; width:auto;"><img src="../templates/joobstrap/template_preview.png" /></div>
@@ -22,11 +22,6 @@
 	<li> 31/Jan/2014 - Version 2.0 - Re- Release now for Joomla 3 with bootstrap 3</li>
 
 
-</ul>
-<br />
-Important links<br/>
-<ul>
-<li>> <a href="http://www.pixelsparadise.com/docs/joobstrap" target="_blank">Online Documentation</a></li>
 </ul>
 
 </div>
