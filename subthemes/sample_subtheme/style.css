@@ -35,6 +35,7 @@ h6 {font-size:1em;}
 /*The logo reset */
 .navbar-brand {float: left;padding: 0px;font-size: inherit;line-height: 1em;}
 
+
 /* The Logo */
 .navbar-brand h1{padding:0px 0;margin:0 0 0 10px;font-size:20px;line-height:1em;font-weight:600;}
 .navbar-brand h1:hover {background:black;color:#fff;}
@@ -43,6 +44,7 @@ h6 {font-size:1em;}
 .boxed #navbar_center {}
 #navbar_center, .boxed #navbar_center .inner_wrapper {}
 #navbar_center{margin-bottom:-11px;}
+.sticked #navbar_center .inner_wrapper{background:#fff;}
 
 /* Navbar Link Element*/
 .main_nav .navigation li a{padding:20px;font-size:13px; font-weight:400;}
