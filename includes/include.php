@@ -44,7 +44,7 @@
 		.btn-info, .page-header:after, ul.nav > li:hover, .standout,  .logo_area_wrapper ul.nav > li.active a:link,  .logo_area_wrapper  ul.nav > li.active, .dropdown-menu .active > a,.dropdown-menu .active > a:hover, .dropdown-menu  > li > a:hover, 
 		.logo_area_wrapper .navbar .nav > li > .dropdown-menu li a:hover, 
 		.pricing_table.featured_plan:before, .horizon-menu, span.separator:hover, .sliding_menu_toggle a:hover, 
-.dropdown-menu, .footer_area_wrapper<?php if($this->params->get('basicLayout') == 2) : ?> .container-fluid<?php endif; ?>, .nav .flyout-menu, .full_size.dark .footer_area_wrapper, ul.slides li .custom{background:none;background-color:#<?php echo $this->params->get('contrastColor'); ?>;}
+.dropdown-menu, .footer_area_wrapper<?php if($this->params->get('basicLayout') == 2) : ?> .container-fluid<?php endif; ?>, .nav .flyout-menu, .full_size.dark .footer_area_wrapper,  .boxed .contrast_background .inner_wrapper, .full_size .contrast_background {background:none;background-color:#<?php echo $this->params->get('contrastColor'); ?>;}
 		.module-title span {border-bottom:1px solid #<?php echo $this->params->get('contrastColor'); ?>;}
 	</style>
 	

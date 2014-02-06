@@ -3,19 +3,21 @@
 body {padding:0px;background:#ececec;}
 
 /************** Main Layout & Design **************/
-.sourrounding_wrapper  {border-bottom:1px solid #e3e3e3;background-color:#fff;}
 .joobstrab_area {float:left; width:100%;}
+.full_size .sourrounding_wrapper  {border-bottom:1px solid #e3e3e3;background-color:#fff;}
 .boxed .sourrounding_wrapper {border:none;background:none;}
 .boxed #credits .inner_wrapper {border:none;}
+.boxed .dark_background .inner_wrapper {background-color:#404040;border-bottom:none;}
+.boxed .contrast_background .inner_wrapper {border:none;}
+.full_size .contrast_background  {border:none;}
+.full_size .dark_background {background-color:#404040;border-bottom:none;}
 .inner_wrapper {padding:80px 5%;border-bottom:1px solid #d6d6d6; border-top:none;background:#fff;box-shadow:0px 180px 180px rgba(0,0,0,.3);}
-#navbar_center .inner_wrapper {padding:30px 5%;background:none;border:none;box-shadow:none;} 
 #header_slider .inner_wrapper,  #header_slider .container {padding:0px 0%;overflow:hidden;}
 .navbar_area {position:relative; z-index:2;}
 .boxed .sourrounding_wrapper#credits .inner_wrapper, .sourrounding_wrapper#credits{background:none;box-shadow:none;}
 .boxed .sourrounding_wrapper#credits .inner_wrapper{margin-bottom:40px;}
 ul.slides li .custom, ul.slides li .custom .inner_module {background-size:cover;}
 ul.slides li .custom .inner_module {background-image: url(../../img/shine.png);}
-#top_top .inner_wrapper {background-color:#404040;}
 
 /************** Typo **************/
 body { font:300 15px/1.666em 'Roboto', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;color: #505050;-webkit-text-size-adjust: none;}
@@ -28,8 +30,9 @@ h5 {font-size:1.25em;}
 h6 {font-size:1em;}
 
 #credits {color:#666;font-size:12px;}
-#top_top, #top_top h1, #top_top h2, #top_top h3, #top_top h4, #top_top h5, #top_top h6, .header_area .inner_wrapper, .header_area .inner_wrapper h1, .header_area .inner_wrapper h2, .header_area .inner_wrapper h3, .header_area .inner_wrapper h4, .header_area .inner_wrapper h5, .header_area .inner_wrapper h6 {color:#fff;}
-.header_area .inner_wrapper {background:#404040;border-bottom:none;}
+ .contrast_background h1, .contrast_background h2, .contrast_background h3, .contrast_background h4, .contrast_background h5, .contrast_background h6,  .dark_background h1, .dark_background h2, .dark_background h3, .dark_background h4, .dark_background h5, .dark_background h6 {color:#fff;}
+ .contrast_background{color:#fff;}
+ .dark_background {color:#ccc;}
 
 /************** Navigation & Logo **************/
 /*The logo reset */
@@ -41,7 +44,7 @@ h6 {font-size:1em;}
 .navbar-brand h1:hover {background:black;color:#fff;}
 
 /* The Navbar */
-.boxed #navbar_center {}
+#navbar_center .inner_wrapper {padding:30px 5%;background:none;border:none;box-shadow:none;} 
 #navbar_center, .boxed #navbar_center .inner_wrapper {}
 #navbar_center{margin-bottom:-11px;}
 .sticked #navbar_center .inner_wrapper{background:#fff;}

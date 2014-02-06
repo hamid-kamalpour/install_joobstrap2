@@ -166,7 +166,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('header_top')) : ?>
     			<!-- ### HEADER_TOP Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="header_top">
+    			<div class="joobstrap_section sourrounding_wrapper contrast_background light_text" id="header_top">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -180,7 +180,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('header_slider')) : ?>
     			<!-- ### HEADER_SLIDER Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="header_slider">
+    			<div class="joobstrap_section sourrounding_wrapper contrast_background" id="header_slider">
     				<div class="inner_wrapper">
     					<div class="container container-full">
     						<div class="row">
@@ -200,7 +200,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('header_center')) : ?>
     			<!-- ### HEADER_CENTER Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="header_center">
+    			<div class="joobstrap_section sourrounding_wrapper contrast_background" id="header_center">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -214,7 +214,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('header_bottom')) : ?>
     			<!-- ### HEADER_BOTTOM Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id=" header_bottom">
+    			<div class="joobstrap_section sourrounding_wrapper contrast_background" id=" header_bottom">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -236,7 +236,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('top_top')) : ?>
     			<!-- ### TOP_TOP Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="top_top">
+    			<div class="joobstrap_section sourrounding_wrapper contrast_background" id="top_top">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -264,7 +264,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('top_bottom')) : ?>
     			<!-- ### TOP_BOTTOM Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="top_bottom">
+    			<div class="joobstrap_section sourrounding_wrapper dark_background" id="top_bottom">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -397,7 +397,7 @@ if (document.documentElement.clientWidth >= 980) {
     		
     			<?php if($this->countModules('bottom_top')) : ?>
     			<!-- ### BOTTOM_TOP Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="bottom_top">
+    			<div class="joobstrap_section sourrounding_wrapper contrast_background" id="bottom_top">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -425,7 +425,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('bottom_bottom')) : ?>
     			<!-- ### BOTTOM_BOTTOM Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="bottom_bottom">
+    			<div class="joobstrap_section sourrounding_wrapper dark_background" id="bottom_bottom">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -447,7 +447,7 @@ if (document.documentElement.clientWidth >= 980) {
     		
     			<?php if($this->countModules('footer_top')) : ?>
     			<!-- ### FOOTER_TOP Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="footer_top">
+    			<div class="joobstrap_section sourrounding_wrapper contrast_background" id="footer_top">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
@@ -475,7 +475,7 @@ if (document.documentElement.clientWidth >= 980) {
     			
     			<?php if($this->countModules('footer_bottom')) : ?>
     			<!-- ### FOOTER_BOTTOM Module Position Section Start ### -->
-    			<div class="joobstrap_section sourrounding_wrapper" id="footer_bottom">
+    			<div class="joobstrap_section sourrounding_wrapper dark_background" id="footer_bottom">
     				<div class="inner_wrapper">
     					<div class="container">
     						<div class="row">
