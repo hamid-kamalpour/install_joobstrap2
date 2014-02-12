@@ -43,7 +43,7 @@ JHtml::addIncludePath(JPATH_COMPONENT.'/helpers');
 	<?php endif; ?>
 	<?php $leadingcount=0 ; ?>
 	<?php if (!empty($this->lead_items)) : ?>
-	<div class="items-leading row-fluid">
+	<div class="items-leading row">
 		<?php foreach ($this->lead_items as &$item) : ?>
 		<div class="leading-<?php echo $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?>">
 			<?php
@@ -69,9 +69,9 @@ JHtml::addIncludePath(JPATH_COMPONENT.'/helpers');
 			$row = $counter / $this->columns ;
 	
 			if ($rowcount==1) : ?>
-	<div class="items-row cols-<?php echo (int) $this->columns;?> <?php echo 'row-'.$row ; ?> row-fluid">
+	<div class="items-row cols-<?php echo (int) $this->columns;?> <?php echo 'row-'.$row ; ?> row">
 		<?php endif; ?>
-		<div class="item column-<?php echo $rowcount;?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?> span<?php echo round((12/$this->columns));?>">
+		<div class="item column-<?php echo $rowcount;?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?> col-md-<?php echo round((12/$this->columns));?>">
 			<?php
 				$this->item = &$item;
 				echo $this->loadTemplate('item');
